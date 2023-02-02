@@ -51,8 +51,22 @@ header {}
 	right: 0;
 }
 
-.menu-geral{
+.pokeball{
+	width: 28px;
+	margin: 5px;
+}
 
+.pokeball:hover{
+	width: 31px;
+	cursor: pointer;
+}
+
+.menu-pokeball{
+	text-align: center;
+	position: absolute;
+	right: 20px;
+	top: 1.8em;
+	position: fixed;
 }
 
 .item-menu {
@@ -61,11 +75,15 @@ header {}
 	margin: 0.2em;
 	padding: 0.3em;
 	font-size: 0.9em;
-	font-weight: bold;
 	display: block;
 }
 
-.pokeball {
+.item-menu:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.seta-direita {
 	width: 0.5em;
 	margin: 0 5px;
 	vertical-align: middle;
@@ -103,6 +121,13 @@ main{
 	margin: 0 0 1em;
 }
 
+.totodile {
+	width: 22%;
+	margin: 0 0 15px 0;
+	float: right;
+	
+}
+
 
 /*RODAPÉ*/
 .rodape {
@@ -114,6 +139,7 @@ main{
 }
 
 .rodape p {
+	font-family: 'Montserrat', sans-serif;
 	position: absolute;
 	bottom: 50%;
 	left: 3em;
