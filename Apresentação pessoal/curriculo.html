@@ -14,7 +14,7 @@
 			<p>Seu navegador não suporte o arquivo de audio.</p>
 		</audio>
 		<header>
-			<div class="cabecalho">
+			<section class="cabecalho">
 				<img src="ethan-logo.png" class="logo" alt="Personagem masculino do jogo Pokemon Gold">		
 				<div class="conteudo-cabecalho">
 					<h1 class="nome">Matheus Pino</h1>
@@ -22,24 +22,23 @@
 				</div>		
 				<nav class="navegacao">
 					<ul class="menu-geral">
-						<li class="item-menu"><a><img src="seta-direita.png" class="seta-direita">Apresentação pessoal></a></li>
-						<li class="item-menu"><a><img src="seta-direita.png" class="seta-direita">Habilidades</a></li>
-						<li class="item-menu"><a><img src="seta-direita.png" class="seta-direita">Contato</a></li>
+						<li class="item-menu"><a href="#apresentacao"><img src="seta-direita.png" class="seta-direita">Apresentação pessoal</a></li>
+						<li class="item-menu"><a href="#habilidades"><img src="seta-direita.png" class="seta-direita">Habilidades</a></li>
+						<li class="item-menu"><a href="#contato"><img src="seta-direita.png" class="seta-direita">Contato</a></li>
 					</ul>
 					<ul class="menu-pokeball">
-						<li><img src="pokeball.png" class="pokeball"></li>
-						<li><img src="pokeball.png" class="pokeball"></li>
-						<li><img src="pokeball.png" class="pokeball"></li>
+						<li><a href="#apresentacao"><img src="pokeball.png" onmouseover="this.src='pokeball2.png'" onmouseout="this.src='pokeball.png'" class="pokeball"></a></li>
+						<li><a href="#habilidades"><img src="pokeball.png" onmouseover="this.src='pokeball2.png'" onmouseout="this.src='pokeball.png'" class="pokeball"></a></li>
+						<li><a href="#contato"><img src="pokeball.png" onmouseover="this.src='pokeball2.png'" onmouseout="this.src='pokeball.png'" class="pokeball"></a></li>
 					</ul>
 				</nav>
-			</div>
+			</section>
 		</header>
 
 		<main>
-			<div class="apresentacao">
+			<section id="apresentacao" class="apresentacao">
 				<img src="totodile.png" class="totodile">
-				<!-- <iframe src="https://giphy.com/embed/IJgLcBONxOPK9abtgW" class="totodile"></iframe> -->
-				<h1 class="titulo-principal">Apresentação Pessoal</h1>
+				<h2 class="titulo-principal">Apresentação Pessoal</h2>
 
 				<div class= "texto-principal">
 					<p>Sou nascido e criado em São Paulo, tenho 26 anos e  decidi migrar da área de engenharia para a área de tecnologia.</p>
@@ -48,7 +47,32 @@
 					<p>Essa mudança é recente mas posso dizer que foi a melhor decisão que fiz na minha trajetória profissional, sinto prazer em estudar programação e me vejo fazendo isso por muitos anos.</p>
 				</div>
 
-			</div>
+			</section>
+			<section id="habilidades" class="apresentacao2">
+				<img src="totodile.png" class="totodile">
+				<h3 class="titulo-principal">Habilidades</h3>
+
+				<div class= "texto-principal">
+					<p>Sou nascido e criado em São Paulo, tenho 26 anos e  decidi migrar da área de engenharia para a área de tecnologia.</p>
+					<p>Tomei a decisão de migrar de área após me decepcionar com o curso de Engenharia, profissão a qual eu não tinha mais encanto algum. Porém o mesmo curso me possibilitou conhecer um pouco de programação, coisa que eu nunca tido contato antes mas me chamou a atenção desde a primeira aula de algoritmos, ainda no primeiro semestre de engenharia, e esse sim foi o ponto principal que me guiou para onde estou hoje.</p>
+					<p>Em Dezembro de 2022 tranquei o curso de Engenharia e passei em um processo seletivo para participar do Programa Desenvolve, oferecido pelo Grupo Boticário através da plataforma Alura, e ja em Janeiro de 2023 dei inicio ao curso na área de Fullstack onde sigo me desenvolvendo dia após dia.</p>
+					<p>Essa mudança é recente mas posso dizer que foi a melhor decisão que fiz na minha trajetória profissional, sinto prazer em estudar programação e me vejo fazendo isso por muitos anos.</p>
+				</div>
+
+			</section>
+			<section id="contato" class="apresentacao3">
+				<img src="totodile.png" class="totodile">
+				<h4 class="titulo-principal">Contato</h4>
+
+				<div class= "texto-principal">
+					<p>Sou nascido e criado em São Paulo, tenho 26 anos e  decidi migrar da área de engenharia para a área de tecnologia.</p>
+					<p>Tomei a decisão de migrar de área após me decepcionar com o curso de Engenharia, profissão a qual eu não tinha mais encanto algum. Porém o mesmo curso me possibilitou conhecer um pouco de programação, coisa que eu nunca tido contato antes mas me chamou a atenção desde a primeira aula de algoritmos, ainda no primeiro semestre de engenharia, e esse sim foi o ponto principal que me guiou para onde estou hoje.</p>
+					<p>Em Dezembro de 2022 tranquei o curso de Engenharia e passei em um processo seletivo para participar do Programa Desenvolve, oferecido pelo Grupo Boticário através da plataforma Alura, e ja em Janeiro de 2023 dei inicio ao curso na área de Fullstack onde sigo me desenvolvendo dia após dia.</p>
+					<p>Essa mudança é recente mas posso dizer que foi a melhor decisão que fiz na minha trajetória profissional, sinto prazer em estudar programação e me vejo fazendo isso por muitos anos.</p>
+				</div>
+
+			</section>
+			
 			
 		</main>
 
