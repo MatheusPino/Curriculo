@@ -28,7 +28,7 @@ header {}
 .logo {
 	width: 5% ;
 	margin: 20px 20px 108px 20px;
-	padding: ;
+	float: left;
 	
 }
 
@@ -186,4 +186,56 @@ main{
 	position: absolute;
 	bottom: 40%;
 	left: 3em;
+}
+
+
+@media screen and (max-width: 480px){
+	.logo{
+		width: 10%;
+		margin: 20px 10px 0;
+	}
+
+	.conteudo-cabecalho{
+		width: 80%;
+		margin: 20px 0 0 0;
+	}
+
+	.navegacao{
+		width: 90%;
+		margin: 0 20px 0 0;
+	}
+
+	.menu-geral{
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.cabecalho{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.chikorita{
+		width: 27%;
+		margin: 2em 0 0 20px;
+	}
+
+	.apresentacao, .apresentacao2, .apresentacao3{
+		margin: 0;
+		}
+
+	.pokeball{
+		width: 20px;
+		margin: 8.5px 0;
+		}
+	.menu-pokeball{
+		position: absolute;
+		right: 7.5px;
+		top: 142px;
+		position: fixed;
+		}
+
+	.totodile, .chikorita{
+		margin: 4em 10px 0 20px;
 }
