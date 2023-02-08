@@ -115,6 +115,7 @@ main{
 	margin: 0 20px 0;
 	padding: 5em 30px 6em;
 
+
 }
 
 #apresentacao{
@@ -135,7 +136,7 @@ main{
 
 }
 
-.texto-principal{
+.texto-principal1, .texto-principal2, .texto-principal3{
 	text-align: center;
 	font-size: 110%;
 	color: black;
@@ -143,16 +144,28 @@ main{
 	border-radius: 20px;
 	margin: 2em 30px 2em;
 	padding: 1em 20px 0;
-	
+	min-height: 300px;
+	transition: 0.5s border;
 }
 
-.texto-principal:hover {
 
-	border: 8px double black;
+.texto-principal1:hover {
+
+	border: 7px double #24C90A;
 	border-radius: 20px;
 	font-weight: bold;
 }
-.texto-principal p {
+
+
+.texto-principal3:hover {
+
+	border: 7px double #0EACD2;
+	border-radius: 20px;
+	font-weight: bold;
+
+}
+
+.texto-principal1 p, .texto-principal2 p, .texto-principal3 p {
 	margin: 0 0 1em;
 }
 
@@ -163,10 +176,62 @@ main{
 	
 }
 
+
+/*Habilidades*/
+
 .cindaquil {
 	width: 27%;
 	margin: 3.5em 20px 0 10px;
 	float: left;	
+}
+
+
+.icone-hard, .icone-soft{
+	width: 20%;
+	margin: 0 0 1em;
+}
+
+.menu-skills{
+	display: flex;
+	min-height: 300px;
+	align-items: center;
+}
+
+.menu-hs li, .menu-ss li{
+	margin: 1em 0;
+	font-weight: bold;
+}
+
+.texto-principal2:hover {
+
+	border: 7px double #FF231B;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+
+/*Contato*/
+
+.links-contato{
+	min-height: 300px;
+	margin-left: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.texto-principal3{
+	vertical-align: middle;
+	padding: 0;
+}
+
+.icones-redes{
+	width: 120px;
+}
+
+.icones-redes:hover{
+	width: 135px;
 }
 
 /*RODAPÉ*/
@@ -189,7 +254,7 @@ main{
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 560px){
 	.logo{
 		width: 10%;
 		margin: 20px 10px 0;
@@ -197,6 +262,9 @@ main{
 
 	.titulo-principal{
 		font-size: 1.5em;
+		margin: 1em 0;
+		display: flex;
+		flex-basis: 100%;
 	}
 
 	.conteudo-cabecalho{
@@ -222,9 +290,12 @@ main{
 
 
 	.apresentacao, .apresentacao2, .apresentacao3{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		margin: 0;
-		padding: 2em 10px 2em;
-		}
+		padding: 4em 0 0;	
+	}
 
 	.pokeball{
 		width: 20px;
@@ -237,10 +308,39 @@ main{
 		position: fixed;
 		}
 
-	.totodile, .chikorita{
-		margin: 4.4em 20px 0 20px;
-}
+	.chikorita, .cindaquil, .totodile{
+		margin: 0;
+	}
 
-	.cindaquil{
-		margin: 3.5em 10px 0 45px;
+	.menu-skills{
+		display: flex;
+		flex-direction: column;
+		min-height: 300px;
+	}
+
+	.menu-hs, .menu-ss{
+		margin: 1em 0;
+	}
+
+	.icone-hard, .icone-soft{
+		width: 30%;
+	}
+
+	.icones-redes{
+		width: 150px;
+		margin: 1em;
+		flex-shrink: 0;
+	}
+
+	.texto-principal3, .texto-principal2, .texto-principal1{
+		padding: 2em 2em;
+		min-width: 70%;
+		margin: 0 30%;
+	}
+
+	.links-contato{
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+
 	}
