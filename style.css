@@ -4,12 +4,8 @@ html{
 
 /*corpo*/
 
-body{ 
-}
 
 /*Cabeçalho*/
-
-header {}
 
 .cabecalho{
 	width: 100%;
@@ -50,10 +46,7 @@ header {}
 
 .navegacao {
 	width: 32%;
-	margin:0 68px 88px 0;
-	padding: ;
-
-	 
+	margin:0 68px 88px 0;	 
 }
 
 .navegacao a{
@@ -343,4 +336,4 @@ main{
 		display: flex;
 		flex-direction: column;
 
-	}
+}
